@@ -19,7 +19,7 @@ height:700px;
 }
 .bg{
 background:white; 
-width: 125%;
+width: 200%;
 height: 700px;
 position: absolute;
 }
@@ -34,14 +34,14 @@ h2{
 background: black;
                 
 position: absolute;
-width:125%;
+width:200%;
 height: 200px;
 overflow:hidden;
 
 }
 .ground{
 background: red; 
-width: 125%; 
+width: 200%; 
 height: 200px;
 position: absolute;
 overflow: hidden;
@@ -110,7 +110,7 @@ animation: hole2 2.5s linear infinite;
 
 @keyframes hole1{
 0% {
-left: 1100px;
+left: 1400px;
 overflow: hidden;
 snack: 0s;
 
@@ -121,7 +121,7 @@ left: -200px;
 }
 @keyframes hole2{
 0% {
-left: 1150px;
+left: 1300px;
 overflow:hidden;
 snack: 0s;
 }
@@ -141,7 +141,7 @@ text-align:center;
 background: white;
 position: absolute;
 top: 100px;
-left: 400px;
+left: 250px;
 width: 600px;
 height: 500px;
 border: 1px solid white;
@@ -157,7 +157,7 @@ color: lime;
 position: absolute;
 background: black;
 top: 400px;
-left: 450px;
+left: 300px;
 visibility:hidden;
 border: 10px solid black;
 border-radius: 20px;
