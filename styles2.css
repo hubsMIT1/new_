@@ -1,0 +1,418 @@
+*{
+margin: 0;
+} 
+body {
+overflow: hidden;
+/*position: relative;*/
+}
+.container {
+/*background-color: yellow;
+/*border: 2px solid black;*
+width:130%;*/
+/*
+position: absolute;
+top: 20px;
+height:700px;
+
+/*position: absolute; */
+/*overflow:hidden;*/
+}
+.bg{
+background:white; 
+width: 125%;
+height: 700px;
+position: absolute;
+}
+
+h2{
+
+ visibility: none;
+ opacity:10%;
+ color: red;
+}
+.ceiling {
+background: black;
+                
+position: absolute;
+width:125%;
+height: 200px;
+overflow:hidden;
+
+}
+.ground{
+background: red; 
+width: 125%; 
+height: 200px;
+position: absolute;
+overflow: hidden;
+top:500px;
+}
+.box{
+/*background:blue;
+width:30px; 
+height:30px;
+/*position: absolute;*/
+top:440px;
+left: 30px;
+}
+.hole1{
+
+background: green;
+width: 50px;
+height: 200px;
+position: absolute;
+overflow: hidden;
+top:0px;
+left: 30px;
+/*
+animation: hole1 2s linear infinite;*/
+
+}
+
+.hole2{
+background:green;
+width:50px;
+height:200px;
+position: absolute;
+/*bottom:0px;*/
+overflow:hidden;
+top:500px;
+left: 30px;
+/*
+animation: hole2 3s linear infinite;*/
+}
+.box{
+position: absolute;
+width: 0;
+height: 0;
+
+animation: box 5s linear infinte;
+
+border-left: 30px solid transparent;
+border-right: 30px solid transparent;
+border-bottom: 60px solid black;
+
+
+
+
+
+}
+
+.moving1{
+position: absolute;
+animation: hole1 2s linear infinite; 
+}
+.moving2 {
+position: absolute;
+animation: hole2 2.5s linear infinite;
+}
+
+
+@keyframes hole1{
+0% {
+left: 1100px;
+overflow: hidden;
+snack: 0s;
+
+}
+100% {
+left: -200px;
+}
+}
+@keyframes hole2{
+0% {
+left: 1150px;
+overflow:hidden;
+snack: 0s;
+}
+100% {
+left: -100px;
+}
+}
+.doUp{
+/* animation: up 1s linear;*/
+ bottom:360px;
+}
+.doDown{
+bottom: 200px;
+}
+.btnS {
+text-align:center;
+background: white;
+position: absolute;
+top: 100px;
+left: 400px;
+width: 600px;
+height: 500px;
+border: 1px solid white;
+box-shadow:100px 100px 300px black;
+border-radius: 10px;
+visibility: hidden;
+}
+.btn{
+
+background-size: cover; 
+font-size: 150px;
+color: lime;
+position: absolute;
+background: black;
+top: 400px;
+left: 450px;
+visibility:hidden;
+border: 10px solid black;
+border-radius: 20px;
+text-align: center;
+box-shadow:10px 10px 30px #000000;
+
+}
+.btn:hover {
+background: lime;
+border-radius: 5px;; 
+}
+/*
+@keyframes up{
+/* bottom: 200px;*/
+
+
+/*bottom: 300px;*/
+h3{
+position: absolute;
+right: 30px;
+font-size: 25px;
+flex-dirextion: column;
+padding-right: 
+border: 2px solid black;
+color: lime;
+background-color: 0;
+
+height: 
+border-radius: 10px;
+}
+.scr {
+display: flex;
+flex-dirextion: row;
+column-gap: 500px;
+
+}
+.end1,.highS{
+ font-size: 50px; 
+ color : black;
+ background: bk;
+ border: 0px solid black;
+ position:relative;
+ top:30px;
+ left: 60px;
+ width: 400px; 
+ height: 100px;
+float:left;
+
+}
+*{
+margin: 0;
+} 
+body {
+overflow: hidden;
+/*position: relative;*/
+}
+.container {
+/*background-color: yellow;
+/*border: 2px solid black;*
+width:130%;*/
+/*
+position: absolute;
+top: 20px;
+height:700px;
+
+/*position: absolute; */
+/*overflow:hidden;*/
+}
+.bg{
+background:white; 
+width: 125%;
+height: 700px;
+position: absolute;
+}
+
+h2{
+
+ visibility: none;
+ opacity:10%;
+ color: red;
+}
+.ceiling {
+background: black;
+                
+position: absolute;
+width:125%;
+height: 200px;
+overflow:hidden;
+
+}
+.ground{
+background: red; 
+width: 125%; 
+height: 200px;
+position: absolute;
+overflow: hidden;
+top:500px;
+}
+.box{
+/*background:blue;
+width:30px; 
+height:30px;
+/*position: absolute;*/
+top:440px;
+left: 30px;
+}
+.hole1{
+
+background: green;
+width: 50px;
+height: 200px;
+position: absolute;
+overflow: hidden;
+top:0px;
+left: 30px;
+/*
+animation: hole1 2s linear infinite;*/
+
+}
+
+.hole2{
+background:green;
+width:50px;
+height:200px;
+position: absolute;
+/*bottom:0px;*/
+overflow:hidden;
+top:500px;
+left: 30px;
+/*
+animation: hole2 3s linear infinite;*/
+}
+.box{
+position: absolute;
+width: 0;
+height: 0;
+
+animation: box 5s linear infinte;
+
+border-left: 30px solid transparent;
+border-right: 30px solid transparent;
+border-bottom: 60px solid black;
+
+
+
+
+
+}
+
+.moving1{
+position: absolute;
+animation: hole1 2s linear infinite; 
+}
+.moving2 {
+position: absolute;
+animation: hole2 2.5s linear infinite;
+}
+
+
+@keyframes hole1{
+0% {
+left: 1100px;
+overflow: hidden;
+snack: 0s;
+
+}
+100% {
+left: -200px;
+}
+}
+@keyframes hole2{
+0% {
+left: 1150px;
+overflow:hidden;
+snack: 0s;
+}
+100% {
+left: -100px;
+}
+}
+.doUp{
+/* animation: up 1s linear;*/
+ bottom:360px;
+}
+.doDown{
+bottom: 200px;
+}
+.btnS {
+text-align:center;
+background: white;
+position: absolute;
+top: 100px;
+left: 400px;
+width: 600px;
+height: 500px;
+border: 1px solid white;
+box-shadow:100px 100px 300px black;
+border-radius: 10px;
+visibility: hidden;
+}
+.btn{
+
+background-size: cover; 
+font-size: 150px;
+color: lime;
+position: absolute;
+background: black;
+top: 400px;
+left: 450px;
+visibility:hidden;
+border: 10px solid black;
+border-radius: 20px;
+text-align: center;
+box-shadow:10px 10px 30px #000000;
+
+}
+.btn:hover {
+background: lime;
+border-radius: 5px;; 
+}
+/*
+@keyframes up{
+/* bottom: 200px;*/
+
+
+/*bottom: 300px;*/
+h3{
+position: absolute;
+right: 30px;
+font-size: 25px;
+flex-dirextion: column;
+padding-right: 
+border: 2px solid black;
+color: lime;
+background-color: 0;
+
+height: 
+border-radius: 10px;
+}
+.scr {
+display: flex;
+flex-dirextion: row;
+column-gap: 500px;
+
+}
+.end1,.highS{
+ font-size: 50px; 
+ color : black;
+ background: bk;
+ border: 0px solid black;
+ position:relative;
+ top:30px;
+ left: 60px;
+ width: 400px; 
+ height: 100px;
+float:left;
+
+}
